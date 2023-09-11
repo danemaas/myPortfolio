@@ -278,6 +278,7 @@ img, svg {
     color: var(--secondary-color-two);
     font-weight: 500;
     transition: box-shadow .4s;
+    cursor: pointer;
 }
 
 .button:hover {
