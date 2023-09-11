@@ -15,6 +15,11 @@ if(navClose) {
     })
 }
 
+// this function will make the anchored link be a pop-up window.
+function newWindow () {
+    const windowPop = window.open('https://danemaas.github.io/MyResume/', 'pop-up', 'width=814, height=960');
+}
+
 // ========== AUTO-HIDE MENU BAR ==========
 
 

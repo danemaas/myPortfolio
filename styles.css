@@ -273,6 +273,7 @@ img, svg {
     display: inline-block;
     background-color: var(--accent-color-two);
     padding: .65rem 1.55rem;
+    margin: .5rem;
     border-radius: .5rem;
     color: var(--secondary-color-two);
     font-weight: 500;
