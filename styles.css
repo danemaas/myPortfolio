@@ -3,15 +3,6 @@
 
 /* VARIABLES */
 :root {
-    /* COLORS */
-    --bg-color: #d8eefe;
-    --text-color: #5f6c7b;
-    --highlight-color: #3da9fc;
-    --title-color: #094067;
-    --card-bgcolor: #fffffe;
-    --first-color: #0066ff;
-    --secondary-color: #90b4ce;
-
     /* COLORS - 60 30 10 rule */
     --dominant-color-one: #d8eefe;
     --dominant-color-two: #90b4ce;
@@ -177,7 +168,6 @@ img, svg {
         position: fixed;
         top: 0;
         right: -100%;
-        background-color: var(--dominant-color-one);
         box-shadow: 0 0 15px var(--accent-color-two);
         width: 50%;
         height: 100%;
@@ -258,11 +248,16 @@ img, svg {
 .home_social-link {
     display: flex;
     background-color: var(--accent-color-two);
-    padding: .5rem;
+    padding-inline: .4rem;
+    padding-block: .35rem;
     color: var(--title-color);
     border-radius: 25rem;
     font-size: 1.25rem;
     transition: transform .4s;
+}
+
+.home_social-link i {
+    color: var(--secondary-color-two);
 }
 
 .home_social-link:hover {
@@ -272,21 +267,6 @@ img, svg {
 .home_image {
     justify-self: center;
 }
-
-/* .background-img {
-    position: absolute;
-    border: 100px solid var(--first-color);
-    filter: drop-shadow(0 15px 5px var(--first-color));
-    border-radius: 10px;
-    padding: 0 80px;
-    z-index: -1;
-} */
-
-/* .background_img {
-    position: absolute;
-    width: 70%;
-    z-index: -1;
-} */
 
 /* BUTTON */
 .button {
@@ -556,9 +536,9 @@ img, svg {
 
 .footer_soclink {
     display: flex;
-    background-color: var(--highlight-color);
+    background-color: var(--accent-color-one);
     padding: .5rem;
-    color: var(--dominant-color-one);
+    color: var(--secondary-color-two);
     border-radius: 25rem;
     transition: transform .4s;
 }
